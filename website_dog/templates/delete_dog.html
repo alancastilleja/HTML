@@ -1,0 +1,12 @@
+{% extends 'base_website.html' %}
+{% block content %}
+    <div>
+        <h1>Delete Dog Id here</h1>
+        <form method="POST">
+        {{form.hidden_tag()}}
+        {{form.id.label}}{{form.id}}
+        {{form.submit()}}
+        </form>
+    </div>
+
+{% endblock %}
